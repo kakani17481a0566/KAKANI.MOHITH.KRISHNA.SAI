@@ -1,0 +1,74 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: white;
+    background-color: rgb(34, 31, 59);
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  address {
+    margin-bottom: 10px;
+    font-style: normal;
+  }
+  
+  /* Section styles */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin-left: 20px;
+  }
+  
+  /* Link styles */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+  }
+  
+  /* Additional Styles */
+  .p-4.bg-dark.text-white {
+    background-color: rgb(108, 99, 255);
+  }
+  
